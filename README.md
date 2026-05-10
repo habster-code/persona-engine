@@ -1,6 +1,6 @@
 # 🧠Persona Engine
 
-Full documentation on [wiki](https://github.com/habster-code/persona-engine/wiki)
+Full documentation on [Wiki](https://github.com/habster-code/persona-engine/wiki)
 
 **Local LLM-powered dialogue and world generation for Unity.**
 
