@@ -1,4 +1,7 @@
 # 🧠Persona Engine
+
+Full documentation on [wiki](https://github.com/habster-code/persona-engine/wiki)
+
 **Local LLM-powered dialogue and world generation for Unity.**
 
 Generate rich world descriptions, create customisable characters, and hold real-time
@@ -28,7 +31,7 @@ conversations — all running locally on yours machine. No internet, no API keys
 
 1. Download the `.unitypackage` from [Releases](https://github.com/habster-code/persona-engine/releases).
 2. Import into your project.
-3. Install **NuGetForUnity** and the required NuGet packages (see the [Wiki](https://github.com/habster-code/persona-engine/wiki)).
+3. Install **NuGetForUnity** and the required NuGet packages (see the [Wiki](https://github.com/habster-code/persona-engine/wiki/Get-Started#installation-nugetforunity)).
 4. Open the demo scene (`Assets/PersonaEngine/Demo/Scenes/DialogueScene.unity`), press Play, and click a button.
 
 ---
