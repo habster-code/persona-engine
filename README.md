@@ -23,7 +23,7 @@ conversations — all running locally on yours machine. No internet, no API keys
 
 - Unity 2022.3 LTS, Unity 6
 - Windows x64
-- Any GGUF model (demo model included: `TinyLlama-1.1B-Chat-Q4_K_M.gguf`, ~670 MB)
+- Any GGUF model (demo model included: `TinyLlama-1.1B-Chat-Q4_K_M.gguf`)
 
 ---
 
