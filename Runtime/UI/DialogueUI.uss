@@ -1,0 +1,55 @@
+.chat-button {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    background-color: rgb(164, 184, 188);
+    width: 50px;
+    height: 35px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.dialogue-root {
+    background-color: rgb(237, 250, 250);
+}
+
+.chat-history {
+    min-height: 450px;
+    max-height: 450px;
+    min-width: 510px;
+}
+
+.chat-field {
+    align-items: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    min-height: 70px;
+    min-width: auto;
+}
+
+.unity-scroll-view {
+    flex-grow: 1;
+    min-height: 80px;
+}
+
+.unity-scroll-view .unity-text-field {
+    flex-grow: 1 !important;
+    min-width: 100px !important;
+}
+
+.unity-scroll-view .unity-text-field[multiline="true"] {
+    min-height: 60px !important;
+}
+
+.unity-scroll-view > .unity-scroll-view__content-container {
+    align-items: stretch;
+}

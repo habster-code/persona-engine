@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PersonaEngine/Editor/UI/WorldSettings.uss?fileID=7433441132597879392&amp;guid=ff5462781afa3b645bde62dd8bb5feab&amp;type=3#WorldSettings" />
+    <ui:Label tabindex="-1" text="Description of world" parse-escape-sequences="true" display-tooltip-when-elided="true" name="desc-world-label" style="left: 10px; top: 15px; -unity-font-style: normal; font-size: 12px; -unity-text-align: middle-left;" />
+    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="desc-scroll-view" mode="Vertical" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="AlwaysVisible" style="min-height: 150px; min-width: 520px; top: 20px; flex-grow: 0; align-items: flex-start; max-height: 150px; width: auto;">
+        <ui:TextField picking-mode="Ignore" value="Type text here..." name="desc-world" multiline="true" style="left: auto; flex-direction: column; flex-wrap: nowrap; align-items: stretch; min-height: 145px; -unity-text-align: middle-left; white-space: normal; text-overflow: ellipsis; max-height: none; min-width: 510px; align-self: auto; justify-content: flex-start; flex-grow: 1; width: auto;" />
+    </ui:ScrollView>
+    <ui:Button text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" name="save" style="top: 25px; width: 80px; flex-direction: column; align-items: auto; justify-content: center; align-self: flex-start; right: auto; left: 5px;" />
+    <ui:Toggle label="Generate description" name="generate-desc-world" value="false" focusable="true" style="left: 5px; top: 35px; opacity: 1; font-size: 12px;" />
+    <ui:VisualElement name="generate-settings" style="flex-grow: 1; position: relative; top: 45px; height: auto; left: -1px;" />
+</ui:UXML>

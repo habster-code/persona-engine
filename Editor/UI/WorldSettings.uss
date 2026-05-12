@@ -1,0 +1,58 @@
+.prompt-settings-hide {
+    display: none;
+    overflow: hidden;
+    height: 0;
+}
+
+.positive-prompt {
+    margin: 0 10px 5px 10px;
+}
+
+.negative-prompt {
+    margin: 0 10px 5px 10px;
+}
+
+.temp {
+    margin: 0 10px 5px 10px;
+}
+
+.top-p {
+    margin: 0 10px 5px 10px;
+}
+
+.max-tokens {
+    margin: 0 10px 5px 10px;
+}
+
+.freq-pen {
+    margin: 0 10px 5px 10px;
+}
+
+.pres-pen {
+    margin: 0 10px 5px 10px;
+}
+
+.gpu-layers {
+    margin: 0 10px 5px 10px;
+}
+
+.context-size {
+    margin: 0 10px 5px 10px;
+}
+
+.start-gen {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.desc-world {
+    min-width: 450px;
+    min-height: 145px;
+    flex-grow: 1;
+}
+
+.desc-world-scroll {
+    min-height: 150px;
+    min-width: 510px;
+}

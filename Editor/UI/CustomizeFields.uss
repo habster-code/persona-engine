@@ -1,0 +1,42 @@
+.add-btn,
+.apply-btn{
+	width: 120px;
+	min-height: 20px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.name-label{
+	width: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.type-label{
+	width: 50px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.name-input{
+	max-width: 120px;
+	margin-top: 20px;
+	margin-left: -10px;
+	flex-grow: 1;
+}
+.type-popup{
+	max-width: 100px;
+	margin-top: 20px;
+	margin-left: -15px;
+	flex-grow: 1;
+}
+.opts-label{
+	width: 50px;
+	min-width: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.opts-input{
+	max-width: 130px;
+	min-width: 130px;
+	margin-top: 20px;
+	margin-left: 0px;
+}

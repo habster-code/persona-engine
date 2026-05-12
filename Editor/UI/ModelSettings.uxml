@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PersonaEngine/Editor/UI/ModelSettings.uss?fileID=7433441132597879392&amp;guid=6531ce7d3b7b31a419e95e07edf2a6ae&amp;type=3#ModelSettings" />
+    <ui:Label tabindex="-1" text="Drop your file .gguf here:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="drop-model-label" style="top: 15px; left: 5px;" />
+    <ui:VisualElement name="drop-model" style="flex-grow: 1; height: auto; min-height: auto; max-height: 50px; align-items: center; top: 25px;" />
+    <ui:TextField picking-mode="Ignore" label="Model name" name="model-name" style="flex-direction: column; flex-wrap: nowrap; top: 30px; width: 150px; display: flex; left: 5px;" />
+    <ui:Button text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" name="model-save" style="display: flex; top: 35px; width: 70px; left: 5px;" />
+    <ui:EnumField label="Backend" type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" value="Center" name="backend-choice" style="align-self: flex-start; align-items: stretch; justify-content: center; flex-wrap: wrap; flex-direction: column; top: 40px; left: 10px; width: 120px;" />
+    <ui:DropdownField label="LLM" name="model-choice" style="flex-direction: column; width: 120px; top: 50px; left: 10px;" />
+    <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="model-info-label" style="top: 55px; left: 10px; bottom: 10px;" />
+</ui:UXML>

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PersonaEngine/Runtime/UI/DialogueUI.uss?fileID=7433441132597879392&amp;guid=bce17c3ab274d7d4bb3385e146be3584&amp;type=3#DialogueUI" />
+    <ui:VisualElement name="character-panel" style="flex-grow: 1; align-items: center; align-self: auto; justify-content: center; display: flex;">
+        <ui:Button text="Start Dialogue" parse-escape-sequences="true" display-tooltip-when-elided="true" name="character-dialogue" style="align-self: center; top: auto; justify-content: flex-end; align-items: center; flex-wrap: nowrap; flex-direction: column; flex-basis: auto;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="dialogue-root" class="dialogue-root" style="flex-grow: 1; width: 100%; flex-direction: column; -unity-text-align: middle-left; white-space: nowrap; align-items: flex-start; flex-wrap: nowrap; justify-content: space-around; align-self: auto; display: none;">
+        <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="back-button" class="chat-button" style="width: 50px; left: 5px; top: 5px; bottom: 5px;" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="chat-history" class="chat-history" style="align-items: flex-start; width: auto; top: 10px; min-height: 400px; min-width: 510px;" />
+        <ui:VisualElement name="chat-panel" style="flex-grow: 1; flex-direction: row; bottom: auto; height: auto; align-items: auto; width: 100%; top: 5px; min-height: auto; align-self: auto; flex-wrap: wrap; max-height: 50px;">
+            <ui:TextField picking-mode="Ignore" name="chat-input" class="chat-field" style="width: 600px; align-self: auto; align-items: auto; position: relative; justify-content: flex-start; flex-direction: row; flex-wrap: nowrap; max-width: none; overflow: visible; min-width: 600px; white-space: normal;" />
+            <ui:Button text="Send" parse-escape-sequences="true" display-tooltip-when-elided="true" name="send-button" class="chat-button" style="width: 50px; flex-direction: row; height: 35px; align-self: auto; justify-content: flex-start; align-items: auto; flex-wrap: wrap; position: relative; top: auto; left: auto; margin-bottom: 5px; bottom: 7px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
