@@ -1,0 +1,29 @@
+Component: LLamaSharp (managed assembly and backends)
+License: MIT
+Copyright (c) 2023-2026 SciSharp
+Full license text: see Licenses/LlamaSharp.txt
+
+Component: llama.cpp (native library)
+License: MIT
+Copyright (c) 2023-2026 The ggml authors
+Full license text: see Licenses/llama.cpp.txt
+
+Component: TinyLlama-1.1B-Chat-v1.0 (demo model)
+License: Apache 2.0
+Full license text: see Licenses/TinyLlama.txt
+
+Component: NuGetForUnity 
+License: MIT
+Full license text: see Licenses/NuGetForUnity.txt
+
+---------------------------------------------------------------------------
+
+This plugin also requires certain .NET libraries to function. These libraries
+are NOT included in this package. You must install them manually using
+NuGetForUnity or another NuGet client. Please refer to the installation guide
+in the documentation for the exact list of required packages and compatible
+versions.
+
+All of these libraries are distributed under the MIT license by their
+respective copyright holders (typically Microsoft Corporation). Full license
+texts can be found at https://www.nuget.org/.
